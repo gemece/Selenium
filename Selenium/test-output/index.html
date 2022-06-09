@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ACG_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">ACG Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ACG_Test_Suite" class="navigator-link ">
+                    <span>TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ACG_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ACG_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ACG_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ACG_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ACG_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ACG_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,  1 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ACG_Test_Suite" class="hide-methods failed suite-ACG_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-ACG_Test_Suite -->
+                      <a href="#" panel-name="suite-ACG_Test_Suite" class="show-methods failed suite-ACG_Test_Suite"> (show)</a> <!-- show-methods failed suite-ACG_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-ACG_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ACG_Test_Suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...)">succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ACG_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ACG_Test_Suite" class="hide-methods skipped suite-ACG_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-ACG_Test_Suite -->
+                      <a href="#" panel-name="suite-ACG_Test_Suite" class="show-methods skipped suite-ACG_Test_Suite"> (show)</a> <!-- show-methods skipped suite-ACG_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-ACG_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ACG_Test_Suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...)">succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ACG_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ACG_Test_Suite" class="hide-methods passed suite-ACG_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-ACG_Test_Suite -->
+                      <a href="#" panel-name="suite-ACG_Test_Suite" class="show-methods passed suite-ACG_Test_Suite"> (show)</a> <!-- show-methods passed suite-ACG_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-ACG_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ACG_Test_Suite" title="tests.SearchTests" class="method navigator-link" hash-for-method="succesSearchTest(public void tests.SearchTests.succesSearchTest(java.lang.reflect.Method) throws java.lang.Interrupte...)">succesSearchTest(public void tests.SearchTests.succesSearchTest(java.lang.reflect.Method) throws java.lang.Interrupte...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ACG_Test_Suite" title="tests.HomeTests" class="method navigator-link" hash-for-method="validHomeTest_validHomePage(public void tests.HomeTests.validHomeTest_validHomePage(java.lang.reflect.Method))">validHomeTest_validHomePage(public void tests.HomeTests.validHomeTest_validHomePage(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ACG_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ACG_Test_Suite" class="panel ACG_Test_Suite">
+          <div class="suite-ACG_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...)">
+                  </a> <!-- succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...) -->
+                  <span class="method-name">succesfullLoginTest</span>
+                  <span class="parameters">(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: didomi-notice-agree-button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;guille&apos;, ip: &apos;192.168.0.151&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-110-generic&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:60816, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 27951, moz:profile: /tmp/rust_mozprofilecaqpla, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.4.0-110-generic, proxy: Proxy(), se:cdp: ws://localhost:60816/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a08b7e49-987a-455a-afe6-cb95256b1ac8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pages.Start.waitVisibility(Start.java:41)
+	at pages.Start.click(Start.java:22)
+	at pages.HomePage.goToBarceloHotel(HomePage.java:43)
+	at tests.LoginTests.succesfullLoginTest(LoginTests.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Succesfull login Scenario with username and password.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ACG_Test_Suite-class-failed -->
+          <div class="suite-ACG_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...)">
+                  </a> <!-- succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...) -->
+                  <span class="method-name">succesfullLoginTest</span>
+                  <span class="parameters">(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;Login&gt; but was:&lt;Guillermo&gt;
+	at pages.LoginPage.verifyLogin(LoginPage.java:46)
+	at tests.LoginTests.succesfullLoginTest(LoginTests.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Succesfull login Scenario with username and password.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ACG_Test_Suite-class-skipped -->
+          <div class="suite-ACG_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="succesSearchTest(public void tests.SearchTests.succesSearchTest(java.lang.reflect.Method) throws java.lang.Interrupte...)">
+                  </a> <!-- succesSearchTest(public void tests.SearchTests.succesSearchTest(java.lang.reflect.Method) throws java.lang.Interrupte...) -->
+                  <span class="method-name">succesSearchTest</span>
+                  <span class="parameters">(public void tests.SearchTests.succesSearchTest(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <em>
+(Succesfull search hotel in the page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ACG_Test_Suite-class-passed -->
+          <div class="suite-ACG_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validHomeTest_validHomePage(public void tests.HomeTests.validHomeTest_validHomePage(java.lang.reflect.Method))">
+                  </a> <!-- validHomeTest_validHomePage(public void tests.HomeTests.validHomeTest_validHomePage(java.lang.reflect.Method)) -->
+                  <span class="method-name">validHomeTest_validHomePage</span>
+                  <span class="parameters">(public void tests.HomeTests.validHomeTest_validHomePage(java.lang.reflect.Method))</span>
+                  <em>
+(Validation of home page Hotel Barcelo.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ACG_Test_Suite-class-passed -->
+        </div> <!-- panel ACG_Test_Suite -->
+        <div panel-name="test-xml-ACG_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/guille/eclipse-workspace/Selenium/TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ACG Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;utils.listeners.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomeTests&quot;/&gt;
+      &lt;class name=&quot;tests.LoginTests&quot;/&gt;
+      &lt;class name=&quot;tests.SearchTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tests --&gt;
+&lt;/suite&gt; &lt;!-- ACG Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ACG_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ACG Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ACG_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ACG Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ACG_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ACG Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ACG_Test_Suite');
+function tableData_ACG_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'succesfullLoginTest')
+data.setCell(0, 2, 'tests.LoginTests')
+data.setCell(0, 3, 16104);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'succesSearchTest')
+data.setCell(1, 2, 'tests.SearchTests')
+data.setCell(1, 3, 14511);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'succesfullLoginTest')
+data.setCell(2, 2, 'tests.LoginTests')
+data.setCell(2, 3, 11892);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validHomeTest_validHomePage')
+data.setCell(3, 2, 'tests.HomeTests')
+data.setCell(3, 3, 5627);
+window.suiteTableData['ACG_Test_Suite']= { tableData: data, tableDiv: 'times-div-ACG_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-ACG_Test_Suite">
+              </div> <!-- times-div-ACG_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ACG_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ACG Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ACG_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ACG_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classLevelSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetup</span>
+                <span class="method-start">2963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validHomeTest_validHomePage(public void tests.HomeTests.validHomeTest_validHomePage(java.lang.reflect.Method))</span>
+                <span class="method-start">2965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">8600 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classLevelSetup</span>
+                <span class="method-start">9354 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetup</span>
+                <span class="method-start">11362 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...)</span>
+                <span class="method-start">11362 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetup</span>
+                <span class="method-start">27569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">succesfullLoginTest(public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.Interrup...)</span>
+                <span class="method-start">27570 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">39649 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classLevelSetup</span>
+                <span class="method-start">40270 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">succesSearchTest(public void tests.SearchTests.succesSearchTest(java.lang.reflect.Method) throws java.lang.Interrupte...)</span>
+                <span class="method-start">42275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetup</span>
+                <span class="method-start">42275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">56787 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

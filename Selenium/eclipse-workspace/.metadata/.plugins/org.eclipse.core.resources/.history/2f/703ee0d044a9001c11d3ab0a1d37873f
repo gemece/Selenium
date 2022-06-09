@@ -1,0 +1,74 @@
+package junit;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Customer {
+
+	private String name;
+	private List<Rental> rentals = new ArrayList<>();
+
+	public Customer(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void addRental(Rental rental) {
+		rentals.add(rental);
+	}
+
+	public String statement() {
+		double totalAmount = 0;
+		int frequentRenterPoints = 0;
+		Iterator<Rental> iteradorRentals = rentals.iterator();
+
+		String result = "Rental record for " + name + "\n";
+
+		while (iteradorRentals.hasNext()) {
+			double thisAmount = 0;
+			Rental each = iteradorRentals.next();
+
+			thisAmount = amountFor(each);
+
+			frequentRenterPoints++;
+			if ((each.getMovie().getPriceCode() == Movie.PriceCodes.NewRelease) && (each.getDaysRented() > 1)) {
+				frequentRenterPoints++;
+			}
+
+			result += "\t" + each.getMovie().getTitle() + "\t" + Double.toString(thisAmount) + "\n";
+
+			totalAmount += thisAmount;
+		}
+
+		result += "Amount owed is " + Double.toString(totalAmount) + "\n";
+		result += "You earned " + Integer.toString(frequentRenterPoints) + " frequent renter points.";
+		return result;
+	}
+
+	public double amountFor(Rental aRental) {
+		double result = 0;
+		switch (aRental.getMovie().getPriceCode()) {
+		case Regular:
+			result += 2;
+			if (aRental.getDaysRented() > 2) {
+				result += (aRental.getDaysRented() - 2) * 1.5;
+			}
+			break;
+		case NewRelease:
+			result += aRental.getDaysRented() * 3;
+			break;
+		case Childrens:
+			result += 1.5;
+			if (aRental.getDaysRented() > 3) {
+				result = (aRental.getDaysRented() - 3) * 1.5;
+			}
+			break;
+		}
+		return result;
+	}
+
+}

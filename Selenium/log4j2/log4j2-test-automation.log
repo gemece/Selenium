@@ -1,0 +1,387 @@
+[INFO ] 2022-06-09 02:28:52.059 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 02:28:52.079 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 02:28:55.910 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 02:28:56.145 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 02:28:59.463 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 02:28:59.780 [main] Log - validHomeTest_validHomePage test is skipped.
+[INFO ] 2022-06-09 02:28:59.782 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 02:28:59.782 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 02:29:02.688 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 02:29:02.976 [main] Log - validHomeTest_validHomePage test is failed.
+[INFO ] 2022-06-09 02:29:03.215 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 02:47:27.538 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 02:47:27.556 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 02:47:30.407 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 02:47:30.603 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 02:47:35.158 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 02:47:35.483 [main] Log - validHomeTest_validHomePage test is skipped.
+[INFO ] 2022-06-09 02:47:35.486 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 02:47:35.488 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 02:47:36.704 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 02:47:37.113 [main] Log - validHomeTest_validHomePage test is failed.
+[INFO ] 2022-06-09 02:47:37.393 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 02:53:38.927 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 02:53:38.946 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 02:53:42.021 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 02:53:42.231 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 02:53:52.329 [main] Log - validHomeTest_validHomePage test is skipped.
+[INFO ] 2022-06-09 02:53:52.334 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 02:53:52.335 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 02:53:58.905 [main] Log - validHomeTest_validHomePage test is failed.
+[INFO ] 2022-06-09 02:53:59.140 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 02:58:40.490 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 02:58:40.509 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 02:58:43.364 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 02:58:43.563 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 02:58:49.122 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 02:58:49.578 [main] Log - validHomeTest_validHomePage test is skipped.
+[INFO ] 2022-06-09 02:58:49.582 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 02:58:49.582 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 02:59:02.509 [main] Log - validHomeTest_validHomePage test is failed.
+[INFO ] 2022-06-09 02:59:02.713 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 03:00:50.785 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:00:50.811 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:00:54.054 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 03:00:54.279 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:00:59.841 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 03:04:11.465 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:04:11.485 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:04:14.333 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 03:04:14.528 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:04:21.823 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 03:14:00.409 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:14:00.432 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:14:03.411 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 03:14:03.628 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:14:08.803 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 03:14:24.544 [main] Log - validHomeTest_validHomePage test is succeed.
+[INFO ] 2022-06-09 03:14:24.600 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 03:44:08.213 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:44:08.235 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:44:11.402 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:44:11.612 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:44:17.617 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 03:44:18.875 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 03:44:29.341 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 03:44:29.344 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:44:29.344 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:44:42.611 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 03:44:42.764 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 03:44:43.407 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 03:53:24.786 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:53:24.805 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:53:27.531 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:53:27.746 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:53:32.930 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 03:53:34.272 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 03:53:44.680 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 03:53:44.686 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:53:44.687 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:53:57.335 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 03:53:57.551 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 03:53:58.188 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 03:55:06.273 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:55:06.293 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:55:08.999 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:55:09.188 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:55:14.533 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 03:55:49.928 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:55:49.951 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:55:52.713 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:55:52.921 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:55:57.849 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 03:55:58.843 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 03:56:05.495 [main] Log - Verifying login.
+[INFO ] 2022-06-09 03:56:05.664 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 03:56:05.667 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:56:05.667 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:56:17.313 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 03:56:17.451 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 03:56:18.082 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 03:56:57.031 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:56:57.051 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:57:00.083 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:57:00.293 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:57:06.156 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 03:57:08.114 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 03:57:54.078 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:57:54.101 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:57:56.862 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:57:57.057 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:58:02.168 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 03:58:02.709 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 03:58:17.276 [main] Log - Verifying login.
+[INFO ] 2022-06-09 03:58:25.904 [main] Log - succesfullLoginTest test is succeed.
+[INFO ] 2022-06-09 03:58:25.908 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 03:58:26.556 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 03:58:39.016 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 03:58:39.039 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 03:58:41.983 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:58:42.189 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:58:46.953 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 03:58:48.189 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 03:58:53.576 [main] Log - Verifying login.
+[INFO ] 2022-06-09 03:58:53.679 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 03:58:53.682 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 03:58:53.683 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 03:59:05.117 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 03:59:05.266 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 03:59:05.885 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 04:00:11.912 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 04:00:11.931 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:00:14.787 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:00:14.991 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:00:20.491 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:00:21.351 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:00:26.082 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:00:26.084 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:00:26.085 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:00:34.275 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:00:34.282 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:00:34.286 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:00:34.405 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 04:01:27.426 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 04:01:27.446 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:01:30.231 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:01:30.428 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:01:37.979 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:01:38.585 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:01:44.483 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:01:44.659 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:01:44.661 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:01:44.661 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:01:56.190 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:01:56.369 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:01:56.954 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 04:02:25.522 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 04:02:25.544 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:02:28.415 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:02:28.606 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:02:33.868 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:02:34.670 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:02:40.355 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:02:40.664 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:02:40.667 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:02:40.667 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:03:09.464 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 04:03:09.485 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:03:12.276 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:03:12.492 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:03:17.651 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:03:18.493 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:03:23.728 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:03:23.876 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:03:23.879 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:03:23.880 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:03:35.777 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:03:35.962 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 04:06:44.617 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 04:06:44.641 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:06:47.665 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:07:06.303 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 04:07:06.328 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:07:09.420 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:07:09.597 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:07:16.342 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:07:17.298 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:07:28.080 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:07:28.242 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:07:28.244 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:07:28.245 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:07:39.854 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:07:40.031 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 04:07:54.863 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:07:58.512 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:08:04.099 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:08:05.458 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:08:16.027 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:08:26.659 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:08:30.255 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:08:35.459 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:08:36.696 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:08:48.043 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:25:13.499 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-06-09 04:25:13.528 [main] Log - succesSearchTest test is starting.
+[INFO ] 2022-06-09 04:25:13.712 [main] Log - succesSearchTest test is succeed.
+[INFO ] 2022-06-09 04:25:13.734 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-06-09 04:27:15.017 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:27:18.272 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:27:24.237 [main] Log - Going to Search Page..
+[INFO ] 2022-06-09 04:27:27.153 [main] Log - Verifying search Hotel.
+[INFO ] 2022-06-09 04:28:39.997 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:28:43.189 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:28:48.025 [main] Log - Going to Search Page..
+[INFO ] 2022-06-09 04:28:50.206 [main] Log - Verifying search Hotel.
+[INFO ] 2022-06-09 04:31:52.831 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:31:55.864 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:32:01.607 [main] Log - Going to Search Page..
+[INFO ] 2022-06-09 04:32:23.368 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:32:26.609 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:32:32.031 [main] Log - Going to Search Page..
+[INFO ] 2022-06-09 04:33:51.478 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:33:55.097 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:34:00.833 [main] Log - Going to Search Page..
+[INFO ] 2022-06-09 04:35:14.232 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:35:18.049 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:35:23.877 [main] Log - Going to Search Page..
+[INFO ] 2022-06-09 04:35:27.623 [main] Log - Verifying search Hotel.
+[INFO ] 2022-06-09 04:37:35.140 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:37:38.926 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:37:46.273 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:37:47.542 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:37:58.937 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:37:59.054 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:38:53.433 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:38:56.389 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:39:01.316 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:39:02.147 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:39:12.668 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:39:12.721 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:39:20.295 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:39:53.278 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:39:56.396 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:40:01.513 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:40:02.142 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:40:12.639 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:40:12.716 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:40:24.316 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:41:25.682 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:41:28.814 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:41:33.801 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:41:34.406 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:41:39.379 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:41:50.864 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:43:28.343 [main] Log - I am in onStart method SearchTest
+[INFO ] 2022-06-09 04:43:28.363 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:43:31.109 [main] Log - invalidLoginTest test is starting.
+[INFO ] 2022-06-09 04:43:31.300 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:43:37.159 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:43:38.224 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:43:48.632 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:43:48.777 [main] Log - invalidLoginTest test is skipped.
+[INFO ] 2022-06-09 04:43:48.780 [main] Log - invalidLoginTest test is starting.
+[INFO ] 2022-06-09 04:43:48.781 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:44:00.257 [main] Log - invalidLoginTest test is failed.
+[INFO ] 2022-06-09 04:44:00.398 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:44:00.399 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:44:13.026 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:44:13.030 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:44:13.030 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:44:26.734 [main] Log - I am in onStart method SearchTest
+[INFO ] 2022-06-09 04:44:26.753 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:44:30.316 [main] Log - invalidLoginTest test is starting.
+[INFO ] 2022-06-09 04:44:30.550 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:44:35.856 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:44:36.869 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:44:40.808 [main] Log - invalidLoginTest test is skipped.
+[INFO ] 2022-06-09 04:44:40.813 [main] Log - invalidLoginTest test is starting.
+[INFO ] 2022-06-09 04:44:40.813 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:44:52.872 [main] Log - invalidLoginTest test is failed.
+[INFO ] 2022-06-09 04:44:53.040 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:44:53.041 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:45:05.217 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:45:05.219 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:45:05.226 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:45:17.899 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:45:18.066 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:45:18.254 [main] Log - I am in onFinish method SearchTest
+[INFO ] 2022-06-09 04:45:30.797 [main] Log - I am in onStart method SearchTest
+[INFO ] 2022-06-09 04:45:30.816 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:45:33.532 [main] Log - invalidLoginTest test is starting.
+[INFO ] 2022-06-09 04:45:33.733 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:45:39.180 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:45:39.738 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:45:50.289 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:45:50.406 [main] Log - invalidLoginTest test is skipped.
+[INFO ] 2022-06-09 04:45:50.408 [main] Log - invalidLoginTest test is starting.
+[INFO ] 2022-06-09 04:45:50.409 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:46:02.492 [main] Log - invalidLoginTest test is failed.
+[INFO ] 2022-06-09 04:46:02.673 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:46:02.673 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:46:15.278 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:46:15.279 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:46:15.280 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:46:27.897 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:46:28.058 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:46:28.252 [main] Log - I am in onFinish method SearchTest
+[INFO ] 2022-06-09 04:49:14.401 [main] Log - I am in onStart method Tests
+[INFO ] 2022-06-09 04:49:14.421 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:49:17.396 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 04:49:17.593 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:49:23.196 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 04:49:23.410 [main] Log - validHomeTest_validHomePage test is succeed.
+[INFO ] 2022-06-09 04:49:23.420 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:49:24.280 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:49:26.299 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:49:26.299 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:49:31.701 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:49:32.699 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:49:37.428 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:49:37.431 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:49:37.431 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:49:49.211 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:49:49.440 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:49:50.069 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:49:52.245 [main] Log - succesSearchTest test is starting.
+[INFO ] 2022-06-09 04:49:52.246 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:49:57.331 [main] Log - Going to Search Page..
+[INFO ] 2022-06-09 04:49:59.032 [main] Log - succesSearchTest test is skipped.
+[INFO ] 2022-06-09 04:49:59.033 [main] Log - succesSearchTest test is starting.
+[INFO ] 2022-06-09 04:49:59.034 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:50:11.992 [main] Log - succesSearchTest test is failed.
+[INFO ] 2022-06-09 04:50:12.198 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:50:13.035 [main] Log - I am in onFinish method Tests
+[INFO ] 2022-06-09 04:50:25.514 [main] Log - I am in onStart method Tests
+[INFO ] 2022-06-09 04:50:25.538 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:50:28.542 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 04:50:28.730 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:50:33.802 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 04:50:33.943 [main] Log - validHomeTest_validHomePage test is succeed.
+[INFO ] 2022-06-09 04:50:33.955 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:50:34.693 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:50:36.680 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:50:36.682 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:50:42.074 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:50:42.907 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:50:53.161 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:50:53.265 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:50:53.269 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:50:53.269 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:51:05.432 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:51:05.598 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:51:06.245 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:51:08.252 [main] Log - succesSearchTest test is starting.
+[INFO ] 2022-06-09 04:51:08.253 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:51:13.562 [main] Log - Going to Search Page..
+[INFO ] 2022-06-09 04:51:14.885 [main] Log - succesSearchTest test is skipped.
+[INFO ] 2022-06-09 04:51:14.886 [main] Log - succesSearchTest test is starting.
+[INFO ] 2022-06-09 04:51:14.886 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:51:28.389 [main] Log - succesSearchTest test is failed.
+[INFO ] 2022-06-09 04:51:28.571 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:51:29.213 [main] Log - I am in onFinish method Tests
+[INFO ] 2022-06-09 04:52:19.863 [main] Log - I am in onStart method Tests
+[INFO ] 2022-06-09 04:52:19.890 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:52:22.852 [main] Log - validHomeTest_validHomePage test is starting.
+[INFO ] 2022-06-09 04:52:23.063 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:52:28.266 [main] Log - Verifying HomePage Barcelo.
+[INFO ] 2022-06-09 04:52:28.476 [main] Log - validHomeTest_validHomePage test is succeed.
+[INFO ] 2022-06-09 04:52:28.482 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:52:29.236 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:52:31.245 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:52:31.245 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:52:36.084 [main] Log - Going to Login Page..
+[INFO ] 2022-06-09 04:52:37.132 [main] Log - Trying to login the Hotel Barcelo.
+[INFO ] 2022-06-09 04:52:47.175 [main] Log - Verifying login.
+[INFO ] 2022-06-09 04:52:47.449 [main] Log - succesfullLoginTest test is skipped.
+[INFO ] 2022-06-09 04:52:47.454 [main] Log - succesfullLoginTest test is starting.
+[INFO ] 2022-06-09 04:52:47.456 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:52:59.376 [main] Log - succesfullLoginTest test is failed.
+[INFO ] 2022-06-09 04:52:59.531 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:53:00.152 [main] Log - Tests is starting!
+[INFO ] 2022-06-09 04:53:02.158 [main] Log - succesSearchTest test is starting.
+[INFO ] 2022-06-09 04:53:02.158 [main] Log - Opening Barcelo Website.
+[INFO ] 2022-06-09 04:53:08.310 [main] Log - Going to Search Page..
+[INFO ] 2022-06-09 04:53:13.509 [main] Log - Verifying search Hotel.
+[INFO ] 2022-06-09 04:53:16.668 [main] Log - succesSearchTest test is succeed.
+[INFO ] 2022-06-09 04:53:16.669 [main] Log - Tests are ending!
+[INFO ] 2022-06-09 04:53:17.601 [main] Log - I am in onFinish method Tests

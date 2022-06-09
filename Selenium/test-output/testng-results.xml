@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="4" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T04:52:19 CEST" name="ACG Test Suite" finished-at="2022-06-09T04:53:17 CEST" duration-ms="58226">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T04:52:19 CEST" name="Tests" finished-at="2022-06-09T04:53:17 CEST" duration-ms="58226">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.LoginTests@59662a0b]" started-at="2022-06-09T04:52:29 CEST" name="classLevelSetup" finished-at="2022-06-09T04:52:31 CEST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@59662a0b]" started-at="2022-06-09T04:52:31 CEST" name="methodLevelSetup" finished-at="2022-06-09T04:52:31 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method retried="true" signature="succesfullLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@59662a0b]" started-at="2022-06-09T04:52:31 CEST" name="succesfullLoginTest" description="Succesfull login Scenario with username and password." finished-at="2022-06-09T04:52:47 CEST" duration-ms="16104" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Login> but was:<Guillermo>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Login> but was:<Guillermo>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at pages.LoginPage.verifyLogin(LoginPage.java:46)
+at tests.LoginTests.succesfullLoginTest(LoginTests.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- succesfullLoginTest -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@59662a0b]" started-at="2022-06-09T04:52:47 CEST" name="methodLevelSetup" finished-at="2022-06-09T04:52:47 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="succesfullLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@59662a0b]" started-at="2022-06-09T04:52:47 CEST" name="succesfullLoginTest" description="Succesfull login Scenario with username and password." finished-at="2022-06-09T04:52:59 CEST" duration-ms="11892" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.succesfullLoginTest(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: didomi-notice-agree-button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'guille', ip: '192.168.0.151', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-110-generic', java.version: '11.0.15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:60816, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 27951, moz:profile: /tmp/rust_mozprofilecaqpla, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.4.0-110-generic, proxy: Proxy(), se:cdp: ws://localhost:60816/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a08b7e49-987a-455a-afe6-cb95256b1ac8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: didomi-notice-agree-button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'guille', ip: '192.168.0.151', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-110-generic', java.version: '11.0.15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:60816, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 27951, moz:profile: /tmp/rust_mozprofilecaqpla, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.4.0-110-generic, proxy: Proxy(), se:cdp: ws://localhost:60816/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a08b7e49-987a-455a-afe6-cb95256b1ac8
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pages.Start.waitVisibility(Start.java:41)
+at pages.Start.click(Start.java:22)
+at pages.HomePage.goToBarceloHotel(HomePage.java:43)
+at tests.LoginTests.succesfullLoginTest(LoginTests.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- succesfullLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@59662a0b]" started-at="2022-06-09T04:52:59 CEST" name="teardown" finished-at="2022-06-09T04:53:00 CEST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTests -->
+      <class name="tests.HomeTests">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.HomeTests@4550bb58]" started-at="2022-06-09T04:52:19 CEST" name="classLevelSetup" finished-at="2022-06-09T04:52:22 CEST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.HomeTests@4550bb58]" started-at="2022-06-09T04:52:22 CEST" name="methodLevelSetup" finished-at="2022-06-09T04:52:22 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="validHomeTest_validHomePage(java.lang.reflect.Method)[pri:0, instance:tests.HomeTests@4550bb58]" started-at="2022-06-09T04:52:22 CEST" name="validHomeTest_validHomePage" description="Validation of home page Hotel Barcelo." finished-at="2022-06-09T04:52:28 CEST" duration-ms="5627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomeTests.validHomeTest_validHomePage(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validHomeTest_validHomePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomeTests@4550bb58]" started-at="2022-06-09T04:52:28 CEST" name="teardown" finished-at="2022-06-09T04:52:29 CEST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.HomeTests -->
+      <class name="tests.SearchTests">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.SearchTests@77fbd92c]" started-at="2022-06-09T04:53:00 CEST" name="classLevelSetup" finished-at="2022-06-09T04:53:02 CEST" duration-ms="2005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method signature="succesSearchTest(java.lang.reflect.Method)[pri:0, instance:tests.SearchTests@77fbd92c]" started-at="2022-06-09T04:53:02 CEST" name="succesSearchTest" description="Succesfull search hotel in the page" finished-at="2022-06-09T04:53:16 CEST" duration-ms="14511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SearchTests.succesSearchTest(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- succesSearchTest -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.SearchTests@77fbd92c]" started-at="2022-06-09T04:53:02 CEST" name="methodLevelSetup" finished-at="2022-06-09T04:53:02 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchTests@77fbd92c]" started-at="2022-06-09T04:53:16 CEST" name="teardown" finished-at="2022-06-09T04:53:17 CEST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SearchTests -->
+    </test> <!-- Tests -->
+  </suite> <!-- ACG Test Suite -->
+</testng-results>

@@ -1,0 +1,52 @@
+package junit;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Customer {
+
+	private String name;
+	private List<Rental> rentals = new ArrayList<>();
+
+	public Customer(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void addRental(Rental rental) {
+		rentals.add(rental);
+	}
+
+	public String statement() {
+		double totalAmount = 0;
+		int frequentRenterPoints = 0;
+		Iterator<Rental> iteradorRentals = rentals.iterator();
+
+		String result = "Rental record for " + name + "\n";
+
+		while (iteradorRentals.hasNext()) {
+			double thisAmount = 0;
+			Rental each = iteradorRentals.next();
+
+			thisAmount = each.getCharge();
+
+			frequentRenterPoints++;
+			if ((each.getMovie().getPriceCode() == Movie.PriceCodes.NewRelease) && (each.getDaysRented() > 1)) {
+				frequentRenterPoints++;
+			}
+
+			result += "\t" + each.getMovie().getTitle() + "\t" + Double.toString(thisAmount) + "\n";
+
+			totalAmount += thisAmount;
+		}
+
+		result += "Amount owed is " + Double.toString(totalAmount) + "\n";
+		result += "You earned " + Integer.toString(frequentRenterPoints) + " frequent renter points.";
+		return result;
+	}
+
+}

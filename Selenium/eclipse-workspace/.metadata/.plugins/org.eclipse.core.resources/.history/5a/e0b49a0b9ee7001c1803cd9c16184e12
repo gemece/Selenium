@@ -1,0 +1,38 @@
+package tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.HomePage;
+import utils.logs.Log;
+
+public class StartTest {
+    public WebDriver driver;
+    public HomePage  homePage;
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    @BeforeClass
+    public void classLevelSetup() {
+        Log.info("Tests is starting!");
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver();
+    }
+
+    @BeforeMethod
+    public void methodLevelSetup() {
+        homePage = new HomePage(driver);
+    }
+
+    @AfterTest
+    public void teardown() {
+        Log.info("Tests are ending!");
+        driver.quit();
+    }
+}

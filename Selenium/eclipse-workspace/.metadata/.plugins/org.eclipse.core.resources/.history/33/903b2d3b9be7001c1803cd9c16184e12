@@ -1,0 +1,35 @@
+package pages;
+
+import static org.testng.AssertJUnit.assertEquals;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import utils.logs.Log;
+
+public class SearchPage {
+
+	/**
+	 * Constructor
+	 */
+	public SearchPage(WebDriver driver) {
+		super(driver);
+	}
+
+	/**
+	 * Web Elements
+	 */
+	By hotelText = By.xpath("/html/body/main/div/div[4]/div[3]/div[3]/h1");
+	
+	// Verify Hotel
+	public SearchPage verifyLogin(String expectedText) {
+		Log.info("Verifying login.");
+		assertEquals(readText(hotelText), expectedText);
+		return this;
+	}
+
+	
+}
+
+
+

@@ -1,0 +1,31 @@
+package junit;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class main {
+
+	public static void main(String[] args) {
+
+		// Declaramos variables Rental, Customer y Movie
+		List<Rental> rentals;
+		Customer customer;
+		List<Movie> movies;
+		
+		movies = new ArrayList<Movie>();
+		Movie movie1 = new Movie("Hulk", Movie.PriceCodes.Regular);
+		Movie movie2 = new Movie("IronMan", Movie.PriceCodes.Childrens);
+		Movie movie3 = new Movie("Spiderman", Movie.PriceCodes.NewRelease);
+		movies.add(movie1);
+		movies.add(movie2);
+		movies.add(movie3);
+	// Creamos alquileres
+		rentals = new ArrayList<Rental>();
+		Rental rental1 = new Rental(movies.get(0), 2);
+		Rental rental2 = new Rental(movies.get(1), 3);
+		Rental rental3 = new Rental(movies.get(2), 4);
+	// Creamos clientes
+		customer = new Customer("Guillermo");
+	}
+
+}
